@@ -1,0 +1,289 @@
+/* Current Styles */
+
+body {
+    /*font-size: 12px;*/
+    color: #262626;
+    background: #fff;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+select, input, textarea {
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 2px 1px;
+}
+a:link, a:visited, a:active {
+    color: #333;
+    text-decoration: none;
+    border: 0;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.display {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+.error {
+    color: red;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+.header_banner {
+    background: #fff none;
+    float: left;
+    margin: 10px auto;
+    height: auto;
+    width: 982px;
+    font-size: 0.8em;
+}
+.header_banner .logoRight {
+    float: left;
+    margin: 7px 0px 0px 0px;
+    width: 292px;
+    height: 60px;
+    background: url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_ww_new_logo60.png) no-repeat;
+}
+.header_top_menu {
+    background-color: #e3e3e3;
+    float: left;
+    width: 984px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+}
+.header_top_menu .message {
+    float: left;
+    font-weight: bold;
+    height: auto;
+    margin-top: 0;
+    width: auto;
+    background-color: #e3e3e3;
+    padding: 3px 0px 0px 3px;
+}
+.header_top_menu .message .logoWW {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_WomanWithinButton.jpg) no-repeat;
+    float: left;
+    width: 115px;
+    height: 24px;
+}
+.header_top_menu .message .logoOSP {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_OSPButton.jpg) no-repeat;
+    float: left;
+    width: 115px;
+    height: 24px;
+    margin-left: 2px;
+}
+.header_top_menu .message a {
+    font-weight: normal;
+    text-decoration: underline;
+}
+#wraptopUL {
+    margin-top: 0px;
+    float: right;
+    font-size: 11px;
+    background-color: #e3e3e3;
+    width: auto;
+    height: 27px;
+}
+.header_top_menu ul {
+    float: right;
+    height: 22px;
+    list-style: none;
+    margin-top: 0;
+}
+.header_top_menu ul li {
+    float: left;
+    margin-top: 5px;
+    border-right: 1px solid #000;
+}
+.header_top_menu ul li.bag.static {
+    height: 27px;
+    padding-top: 0px;
+    background-color: #fff;
+    margin-right: 0;
+    cursor: pointer;
+}
+.header_top_menu ul li.bag {
+    margin-top: 0;
+    padding: 0px 0;
+    border: 0;
+}
+.header_top_menu ul li.bag a.checkout {
+    padding-right: 5px;
+    border: 0 none;
+}
+.header_top_menu ul li.bag a.openBag .items,
+.header_top_menu ul li.bag a.bagLink .items {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_WW_header_bag.png) no-repeat scroll 60px -2px;
+    float: left;
+    width: 70px;
+    cursor: pointer;
+}
+.header_top_menu ul li.bag a:hover {
+    color: #333;
+}
+.header_top_menu ul li a:link, 
+.header_top_menu ul li a:visited {
+    float: left;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.header_top_menu ul li a:hover {
+    color: #333;
+}
+.header_top_menu ul li a.last {
+    background: none;
+}
+
+.header_top_menu ul li a.menu {
+    padding: 0;
+}
+.header_top_menu ul li a#SignIn {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header_top_menu ul li a#SignIn:hover {
+    color: #333;
+}
+.header_top_menu ul li a.hoverstyle:hover {
+    color: #fff !important;
+}
+.header_top_menu ul li a #register {
+    color: #333;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.header_top_menu ul li a#NotUser {
+    padding: 0;
+    text-decoration: none;
+}
+.header_top_menu ul li a.NotUser {
+    padding: 0 !important;
+    display: block !important;
+}
+.header_top_menu ul li a.menu2 {
+    padding: 0 12px 0 0;
+}
+
+/* Main/General Styles */
+.row-top-bar {
+    margin-bottom: 5px;
+}
+.original-price {
+    text-decoration: line-through;
+}
+.sale-price {
+    color: red;
+}
+.btn-quickview {
+    margin: 5px auto;
+}
+.top-wrapper {
+    background-color: #e3e3e3;
+}
+.pdp-small-column {
+    border-left: 1px solid #BBB;
+}
+
+
+@media only screen and (max-width: 939px) {
+
+}
+
+
+@media only screen and (max-width: 939px) {
+
+}
+
+/* Recommendations */
+.recommendations {
+    text-align: center;
+    margin: auto;
+}
+.recommendations .button {
+    background-color: #EEE;
+}
+.recommendations span, .recommendations .product-name, .recommendations h4 {
+    display: block;
+    font-size: 0.7em;
+}
+.recommendation {
+    margin-bottom: 25px;
+}
+
+
+/* app.css overrides */
+
+.top-bar-section .dropdown {
+    padding-bottom: 20px;
+    background: #EEE;
+}
+.top-bar-section .dropdown li a {
+    font-size: 0.7em;
+    padding: 5px 15px;
+    color: #333;
+    background: #EEE;
+}
+.top-bar-section a > b {
+    color: #ea048a;
+} 
+.top-bar-section > ul > li > a:not(.button) {
+    padding: 0 11px;
+}
+.top-bar-section .has-dropdown > a {
+    padding-right: 10px !important;
+}
+.no-js .top-bar-section ul li:hover > a, .no-js .top-bar-section ul li:active > a {
+    color: #ea048a;
+}
+
+.item-name-price {margin-bottom:15px; padding-bottom:15px; border-bottom: 1px solid #ccc;}
+
+form.custom {margin: 20px 0;}
+form.custom .custom.radio {display: block; float: left; margin-right: 20px; width: 28px; height: 28px; border: 1px solid #ccc; border-radius: 0;}
+form.custom .custom.radio:hover {outline: 1px solid #999; cursor: pointer;}
+form.custom .custom.radio.black {background-color: black;}
+form.custom .custom.radio.cherry-glow {background-color: #B45C84;}
+form.custom .custom.radio.harbor-blue {background-color: #17537F;}
+form.custom .custom.radio.slate {background-color: #5C5D61;}
+form.custom .custom.radio.checked:before {background: url("../img/icon-check1.png"); height: 20px; width: 20px;}
+.row.main {padding-top: 15px;}
+.row.main .banner {margin-bottom: 15px;}
+.imgMain {border: 1px solid #ccc;}
+.pdp-select {font-size: 15px; cursor: default;}
+.pdp-select select, .pdp-select-size option {font-weight: normal; margin: 0; padding: 0;}
+.pdp-select .pdp-select-title {display: block; font-weight:bold; clear: both;}
+.radio-button-group {margin-top: 15px;}
+h1 {font-size: 1.2em; color:#444;}
+.strikethrough {text-decoration: line-through; font-size:0.8em; margin:0;}
+.salepricestyle {color: #ea048a; margin:0; font-weight: bold;}
+#custom-select2 {width: 20px;}
+a.button {color: #fff; margin-right: 10px;}
+
+.list-items {margin: 1em; padding-left: 1em;}
+
+.section-pdp {font-size: 0.8em;}
+.section-container .active .title {font-weight: bold;}
+.pdp-messaging {font-size: 0.8em;}
+
+.row-footer {}
+.row-footer .footer-bottom {margin: 30px auto 20px auto; padding-top:15px; border-top: 1px solid #ccc; text-align: center; font-size: 0.8em; }
+.row-footer .list-other-osp-brands {margin: 0.7em auto; width: 95%;}
+.row-footer .list-other-osp-brands li {padding-left: 15px; margin-left: 15px; border-left: 1px solid #ccc;}
+.row-footer .list-other-osp-brands li:first-child {border-left: 0;}
+.row-footer .list-other-osp-brands a {color: #555;}
+.row-footer .list-other-osp-brands a:hover {color: #000;}
+.row-footer .footer-copyright {font-size: 0.8.5em;}
+.row-footer .footer-copyright a {text-decoration: underline;}
