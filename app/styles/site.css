@@ -217,10 +217,12 @@ a:hover {
 }
 .recommendations span, .recommendations .product-name, .recommendations h4 {
     display: block;
-    font-size: 0.7em;
+    font-size: 0.95em;
+    font-weight: bold;
 }
-.recommendation {
-    margin-bottom: 25px;
+.recommendation.list-group-item {
+    border-width: 0 0 1px 0;
+    margin-bottom: 10px;
 }
 
 
@@ -259,7 +261,6 @@ form.custom .custom.radio.cherry-glow {background-color: #B45C84;}
 form.custom .custom.radio.harbor-blue {background-color: #17537F;}
 form.custom .custom.radio.slate {background-color: #5C5D61;}
 form.custom .custom.radio.checked:before {background: url("../img/icon-check1.png"); height: 20px; width: 20px;}
-.row.main {padding-top: 15px;}
 .row.main .banner {margin-bottom: 15px;}
 .imgMain {border: 1px solid #ccc;}
 .pdp-select {font-size: 15px; cursor: default;}
