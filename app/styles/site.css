@@ -41,7 +41,7 @@ a:hover {
 .header_banner {
     background: #fff none;
     float: left;
-    margin: 10px auto;
+    margin: 0 auto 10px auto;
     height: auto;
     width: 982px;
     font-size: 0.8em;
@@ -287,3 +287,5 @@ a.button {color: #fff; margin-right: 10px;}
 .row-footer .list-other-osp-brands a:hover {color: #000;}
 .row-footer .footer-copyright {font-size: 0.8.5em;}
 .row-footer .footer-copyright a {text-decoration: underline;}
+
+.col-header-search {margin-top: 20px;}
