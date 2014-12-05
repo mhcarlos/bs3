@@ -2911,8 +2911,8 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   list-style: none;
   font-size: 12px;
-  background-color: #f8f8f8;
-  border: 1px solid #f8f8f8;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);

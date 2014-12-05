@@ -27,7 +27,8 @@ module.exports = function (grunt) {
         tasks: ['coffee']
       },
       less: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.less'],
+        // files: ['<%= yeoman.app %>/styles/{,*/}*.less'],    // changed to below to also watch all less files
+        files: '**/*.less', 
         tasks: ['less']
       },
       gruntfile: {
