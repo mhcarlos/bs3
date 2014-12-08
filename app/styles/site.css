@@ -270,7 +270,7 @@ form.custom .custom.radio.checked:before {background: url("../img/icon-check1.pn
 h1 {font-size: 1.2em; color:#444;}
 .strikethrough {text-decoration: line-through; font-size:0.8em; margin:0;}
 .salepricestyle {color: #ea048a; margin:0; font-weight: bold;}
-#custom-select2 {width: 20px;}
+
 a.button {color: #fff; margin-right: 10px;}
 
 .list-items {margin: 1em; padding-left: 1em;}
