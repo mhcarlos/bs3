@@ -263,11 +263,15 @@ form.custom .custom.radio.slate {background-color: #5C5D61;}
 form.custom .custom.radio.checked:before {background: url("../img/icon-check1.png"); height: 20px; width: 20px;}
 .row.main .banner {margin-bottom: 15px;}
 .imgMain {border: 1px solid #ccc;}
-.pdp-select {font-size: 15px; cursor: default;}
-.pdp-select select, .pdp-select-size option {font-weight: normal; margin: 0; padding: 0;}
-.pdp-select .pdp-select-title {display: block; font-weight:bold; clear: both;}
+
+.main-content {font-size: 15px; cursor: default;}
+.main-content select, .pdp-select-size option {font-weight: normal; margin: 0; padding: 0;}
+.main-content.pdp-select-title {display: block; font-weight:bold; clear: both;}
+.main-content .form-control {margin: 0.5em 0 1em 0;}
+
+
 .radio-button-group {margin-top: 15px;}
-h1 {font-size: 1.2em; color:#444;}
+h1 {font-size: 1.2em; font-weight:bold; color:#444; margin-top: 0;}
 .strikethrough {text-decoration: line-through; font-size:0.8em; margin:0;}
 .salepricestyle {color: #ea048a; margin:0; font-weight: bold;}
 
