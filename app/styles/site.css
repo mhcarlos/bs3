@@ -277,7 +277,7 @@ a.button {color: #fff; margin-right: 10px;}
 
 .section-pdp {font-size: 0.8em;}
 .section-container .active .title {font-weight: bold;}
-.pdp-messaging {font-size: 0.8em;}
+.pdp-messaging {font-size: 0.8em; margin-top:20px;}
 
 .row-footer {}
 .row-footer .footer-bottom {margin: 30px auto 20px auto; padding-top:15px; border-top: 1px solid #ccc; text-align: center; font-size: 0.8em; }
@@ -290,3 +290,7 @@ a.button {color: #fff; margin-right: 10px;}
 .row-footer .footer-copyright a {text-decoration: underline;}
 
 .col-header-search {margin-top: 20px;}
+
+
+.tab-content > .tab-pane {border: 1px solid #ddd; border-width: 0 1px 1px;}
+.tab-content > .tab-pane > .content {padding: 10px;}
