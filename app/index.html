@@ -19,7 +19,7 @@
 
 <body>
 <div class="container">
-   <div class="header_top_menu">
+   <div class="header_top_menu hidden-md">
       <!-- MAXCHMB WW_Header_Universal -->
       <!-- From Cache CHM3 ContentId: 122100 -->
       <div id="top" class="message">
@@ -98,7 +98,20 @@
   </div>
   <!-- /.row -->  
     
-  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <nav class="navbar navbar-default " role="navigation">
+  <div class="container-fluid">
+
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--a class="navbar-brand" href="#">Brand</a-->
+    </div>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li class="dropdown ">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">What's New<!--span class="caret"></span--> </a>
@@ -259,6 +272,10 @@
       </li>
     </ul>
     <!-- ul.nav navbar-nav -->
+
+    </div>
+
+    </div>
   </nav>
   <!-- /nav.navbar navbar-default navbar-static-top -->
 
@@ -272,12 +289,12 @@
     <div class="col-lg-10">
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-sm-5 col-lg-4">
           <img src="images/pdp-sample.png" alt="" width="290" style="border:1px solid #ccc">
           <!--img width="271" src="http://media.plussizetech.com/womanwithin/mm/0047_80930_mm.jpg?wid=271&amp;qlt=95&amp;op_sharpen=1" alt="Plus Size Top, tunic in maxi length with comfy smocking" id="Main_Image_0" class="alt-main-image imgMain"-->
         </div>
 
-        <div class="col-lg-8 main-content">
+        <div class="col-sm-7 col-lg-8 main-content">
           <div class="item-name-price">
             <h1>Top, tunic in maxi length with comfy smocking by Ellos®</h1>
             <p class="strikethrough">Was: $44.99 - $49.99</p>
@@ -340,8 +357,8 @@
 
             <br>
             <button type="button" class="btn btn-primary btn-lg">Add to Shopping Bag</button>
-            <button type="button" class="btn btn-default btn-lg">Email to a Friend</button>
-            <button type="button" class="btn btn-default btn-lg">Add to Wishlist</button>
+            <button type="button" class="btn btn-default btn-lg btn-email">Email to a Friend</button>
+            <button type="button" class="btn btn-default btn-lg btn-wishlist">Add to Wishlist</button>
             </ul>
           </form>
 
@@ -400,7 +417,7 @@
 
     </div>
 
-    <div class="col-lg-2 pdp-small-column">
+    <div class="col-lg-2 col-md-4 pdp-small-column">
       <div class="recommendations">
         <h4>You Might Also Like</h4>
         <ul class="list-group">
