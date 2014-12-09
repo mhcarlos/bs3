@@ -228,8 +228,8 @@ a:hover {
     margin-bottom:-2px;
  }
 .recommendation.list-group-item {
-    /*border-width: 0 0 1px 0;
-    margin-bottom: 10px;*/
+    border-width: 0 0 1px 0;
+    margin-bottom: 10px;
 }
 .recommendation.list-group-item:first-child {
   border-top-right-radius: 0;
