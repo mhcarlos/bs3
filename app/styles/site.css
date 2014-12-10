@@ -317,9 +317,9 @@ a.button {color: #fff; margin-right: 10px;}
     }
     .col-header-search  .btn {
         height: 35px;
+        width: 45px;
     }
   }
-
 
 @media (min-width: 768px) {
     .col-header-search {margin-top: 20px;}
